@@ -75,7 +75,7 @@ public class LoopTask {
         }
         System.out.println("Sum of the numbers: " + b);*/
 //Task 7
-        int a = 1;
+       /* int a = 1;
         double b = 0;
         int c = 0;
         while (a != 0){
@@ -86,6 +86,6 @@ public class LoopTask {
                 c++;
             }
         }
-        System.out.printf("Number of entered values: %d\nSum: %.0f\nArithmetic mean value: %.1f", c, b, (b / c));
+        System.out.printf("Number of entered values: %d\nSum: %.0f\nArithmetic mean value: %.1f", c, b, (b / c));*/
     }
 }
