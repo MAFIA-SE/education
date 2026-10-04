@@ -78,5 +78,24 @@ public class LoopTask2 {
             }
              i++;
         }while (i <= 100);*/
+//Task 6
+        /*System.out.println("Please, enter a number: ");
+        int a = scanner.nextInt();
+        System.out.println("Please, enter a number: ");
+        int b = scanner.nextInt();
+
+        while (a > b || a < b){
+            if (a <= b){
+                a++;
+                if (a < b){
+                    System.out.println(a);
+                }
+            }else {
+                a--;
+                if (a > b){
+                    System.out.println(a);
+                }
+            }
+        }*/
     }
 }
