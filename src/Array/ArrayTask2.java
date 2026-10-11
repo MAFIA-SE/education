@@ -97,6 +97,72 @@ public class ArrayTask2 {
             }
         }
         System.out.printf("1)%s\n2)%s\n",min, secondMin);*/
+//Task 8
+        /*int[] massive = {5, 25, 40 ,51, 17,};
+        int temp;
+
+        for (int i = 0; i < massive.length - 1; i++) {
+            for (int j = 0; j < massive.length - 1; j++) {
+                if (massive[j] > massive[j + 1]) {
+                    temp = massive[j];
+                    massive[j] = massive[j + 1];
+                    massive[j + 1] = temp;
+                }
+            }
+        }*/
+//Task 9
+        /*int[] massive = new int[5];
+        int[] array = new int[5];
+        double sum = 0;
+        double sum2 = 0;
+
+        for (int i = 0; i < massive.length; i++) {
+            massive[i] = random.nextInt(0, 6);
+            sum += massive[i];
+            array[i] = random.nextInt(0, 6);
+            sum2 += array[i];
+        }
+
+        System.out.println(Arrays.toString(massive));
+        System.out.println(Arrays.toString(array));
+
+        sum = sum / massive.length;
+        sum2 = sum2 / massive.length;
+
+        if (sum > sum2){
+            System.out.println("1st massive more: " + sum + ", " + "2nd: " + sum2);
+        } else if (sum < sum2) {
+            System.out.println("2nd massive more: " + sum2 + ", " + "1st: " + sum);
+        }else {
+            System.out.println("They are equal: 1st: " + sum + ", " + "2nd: " + sum2);
+        }*/
+//Task 10
+        /*int[] massive = new int[11];
+        int countMinusOne = 0;
+        int countZero = 0;
+        int countOne = 0;
+
+        for (int i = 0; i < massive.length; i++) {
+            massive[i] = random.nextInt(-1, 2);
+
+            if (massive[i] == 0){
+                countZero++;
+            } else if (massive[i] == 1) {
+                countOne++;
+            } else {
+                countMinusOne++;
+            }
+        }
+
+        if (countOne > countZero && countOne > countMinusOne){
+            System.out.printf("1 is greater than 0 and -1.\n 1)%d 0)%d -1)%d",countOne, countZero, countMinusOne );
+        } else if (countZero > countOne && countZero > countMinusOne) {
+            System.out.printf("0 is greater than 1 and -1.\n 0)%d 1)%d -1)%d",countZero, countOne, countMinusOne );
+        }else if (countMinusOne > countOne && countMinusOne > countZero){
+            System.out.printf("-1 is greater than 1 and 0.\n -1)%d 1)%d 0)%d",countMinusOne, countOne, countZero );
+        }else {
+            System.out.println("The counts of the numbers 1, 0, and -1 are equal.");
+        }*/
 
     }
 }
