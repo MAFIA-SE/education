@@ -27,6 +27,19 @@ public class Main {
         /*System.out.println("Enter a number: ");
         int result = scanner.nextInt();
         System.out.println(TaskMethods.checkEvenOrOdd(result));*/
+//Task 2
+        /*System.out.println("Enter 1st number: ");
+        int a = scanner.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int b = scanner.nextInt();
+        System.out.println("Enter 3rd number: ");
+        int c = scanner.nextInt();
+
+        System.out.println("AVG: " + TaskMethods.avg(a, b, c));*/
+//Task 3
+        System.out.println("Enter a number: ");
+        int num = scanner.nextInt();
+        System.out.printf("Total num before %d\nTotal num: %d", num, TaskMethods.totalNum(num));
     }
 }
 
